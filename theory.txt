@@ -1,0 +1,28 @@
+float element
+1. float: left;
+2. float: right;
+margin-right: 10px;
+==========================
+<div class="block1"></div>
+    <div class="block2"></div>
+    ==========================
+
+    .block1{
+    width:200px;
+    height:200px;
+    background-color: red;
+    float: left;
+    margin-right: 10px;
+}
+.block2{
+    width:200px;
+    height:200px;
+    background-color: green;
+    float: left;
+}
+/* .block2{
+    width:200px;
+    height:200px;
+    background-color: green;
+    float: right;
+} */
